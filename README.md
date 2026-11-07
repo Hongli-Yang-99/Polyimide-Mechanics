@@ -6,6 +6,8 @@
 | --- | --- |
 | `monomers_smiles.csv` | SMILES of 180 dianhydrides in the first column and 226 diamines in the second. The columns are independent lists. |
 | `External_validation.csv` | MD reference values and model predictions for 48 external-test structures: 240 records at 100–500 K and 48 at 1000 K. Physical-model predictions are included only at 1000 K. |
+| `Screened_candidates.csv` | SMILES and model predictions for 28 candidates with fracture stress at 300 K > 28.17119028 GPa and FSDR < 0.0145 GPa/K (Kapton MD reference values). Five candidates are flagged as Pareto-frontier structures. |
+| `Pareto_frontier.csv` | SMILES and predicted fracture stress at 300 K and FSDR for all 47 Pareto-frontier structures in Figure 10, sorted by increasing FSDR. The objectives are higher fracture stress and lower FSDR. |
 | `Distribution of mechanical properties of polyimide.html` | Interactive property distribution for 40,680 polyimides. Open in a browser and click a point to view its properties and molecular structure. |
 | `PI_Mechanics_Predictor.exe` | Windows program for predicting fracture stress, modulus, toughness and fracture-stress decay rate (FSDR). |
 
